@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-bg: #ffffff;
+  --color-bg-soft: #fafaf9;
+  --color-bg-grid: #f4f4f2;
+  --color-ink: #0a0a0a;
+  --color-ink-2: #1d1d1f;
+  --color-ink-3: #4a4a4f;
+  --color-ink-4: #8a8a90;
+  --color-line: #e6e6e3;
+  --color-line-strong: #d0d0cc;
+  --color-blue: #1e57ff;
+  --color-blue-deep: #0a3acc;
+  --color-blue-soft: #e8efff;
+  --color-yellow: #ffd60a;
+  --color-yellow-deep: #c79900;
+  --color-yellow-soft: #fff8d6;
+  --font-jp: var(--font-noto-sans-jp);
+  --font-display: var(--font-space-grotesk);
+  --font-mono: var(--font-jetbrains-mono);
+  --font-pixel: var(--font-press-start-2p);
+}
+
+@layer base {
+  *, *::before, *::after {
+    min-width: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-ink);
+    font-family: var(--font-jp);
+    font-size: 15px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    background-image:
+      linear-gradient(to right, var(--color-bg-grid) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--color-bg-grid) 1px, transparent 1px);
+    background-size: 48px 48px;
+    background-position: -1px -1px;
+  }
+
+  a { color: inherit; text-decoration: none; }
+  button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+  img, svg { max-width: 100%; height: auto; }
+
+  ::selection {
+    background: var(--color-blue);
+    color: var(--color-bg);
+  }
+
+  :root {
+    --radius: 4px;
+    --radius-lg: 6px;
+  }
+}
+
+/* ===== Layout ===== */
+.shell {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 56px;
+}
+@media (max-width: 760px) {
+  .shell { padding: 0 20px; }
+}
+
+.section-pad { padding: 120px 0; }
+@media (max-width: 760px) { .section-pad { padding: 72px 0; } }
+
+/* ===== Animations ===== */
+@keyframes blink { 50% { opacity: 0; } }
+@keyframes cqPulse {
+  0%, 100% { box-shadow: 0 0 0 3px rgba(31,138,91,0.18); }
+  50%      { box-shadow: 0 0 0 6px rgba(31,138,91,0.05); }
+}
+
+/* ===== Career timeline ===== */
+.cq-row {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.cq-row.in {
+  opacity: 1;
+  transform: none;
+}
+
+.cq-rail-line {
+  background-image:
+    linear-gradient(180deg,
+      rgba(0,0,0,0.18) 0,
+      rgba(0,0,0,0.18) 4px,
+      transparent 4px,
+      transparent 8px);
+  background-size: 2px 8px;
+  background-repeat: repeat-y;
+}
+
+.cq-row.last .cq-rail-line {
+  mask-image: linear-gradient(180deg, #000 0, #000 60%, transparent 100%);
+}
+
+.cq-card::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 4px;
+  background: var(--accent);
+  border-radius: 4px 0 0 4px;
+}
+
+.cq-now-dot {
+  animation: cqPulse 1.8s ease-in-out infinite;
+}
+
+/* ===== Week grid flex cell ===== */
+.week-cell-flex {
+  background: repeating-linear-gradient(
+    45deg,
+    var(--color-yellow-soft),
+    var(--color-yellow-soft) 3px,
+    var(--color-bg) 3px,
+    var(--color-bg) 6px
+  );
+  border-color: var(--color-yellow) !important;
+}
+
+/* ===== Contact card grid overlay ===== */
+.contact-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+  pointer-events: none;
+}
+
+/* ===== Pixel art rendering ===== */
+.pixel {
+  image-rendering: pixelated;
+}
