@@ -3,6 +3,7 @@ import Hero from '@/components/Hero';
 import Career from '@/components/Career';
 import Skills from '@/components/Skills';
 import Domains from '@/components/Domains';
+import Works from '@/components/Works';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
@@ -15,6 +16,7 @@ export default function Home() {
         <Career />
         <Skills />
         <Domains />
+        <Works />
         <Contact />
       </main>
       <Footer />

@@ -2,10 +2,12 @@
 
 import { useState } from 'react';
 import SectionHead from './SectionHead';
+import { useInView, fadeUpStyle } from '@/hooks/useInView';
 
 export default function Contact() {
   const email = 'matuott1230@gmail.com';
   const [copied, setCopied] = useState(false);
+  const [ref, inView] = useInView<HTMLDivElement>();
 
   const copy = async () => {
     try {
@@ -24,9 +26,9 @@ export default function Contact() {
 
   return (
     <section id="contact" className="shell section-pad">
-      <SectionHead num="05" title="Contact." jp="// 連絡先" />
+      <SectionHead num="06" title="Contact." jp="// 連絡先" />
 
-      <div className="contact-card bg-ink text-bg rounded-[var(--radius-lg)] p-14 max-[760px]:p-[36px_28px] relative overflow-hidden">
+      <div ref={ref} style={fadeUpStyle(inView, 0)} className="contact-card bg-ink text-bg rounded-[var(--radius-lg)] p-14 max-[760px]:p-[36px_28px] relative overflow-hidden">
         <div className="relative">
           <div className="font-mono text-xs text-yellow tracking-[0.1em] mb-[18px]">
             // READY TO BUILD

@@ -1,6 +1,5 @@
 'use client';
 
-import { useRef, useState, useEffect } from 'react';
 import PixelGrid from './PixelGrid';
 import { LANDMARKS } from '@/data/pixel-art';
 import type { CareerEntry } from '@/data/career';
@@ -8,41 +7,21 @@ import type { CareerEntry } from '@/data/career';
 type Props = {
   entry: CareerEntry;
   isLast: boolean;
+  visible: boolean;
 };
 
-export default function CareerRow({ entry, isLast }: Props) {
-  const ref = useRef<HTMLElement>(null);
-  const [visible, setVisible] = useState(true);
-
-  useEffect(() => {
-    if (!ref.current) return;
-    setVisible(false);
-    const fallback = setTimeout(() => setVisible(true), 400);
-    const io = new IntersectionObserver(
-      ([e]) => {
-        if (e.isIntersecting) {
-          clearTimeout(fallback);
-          setVisible(true);
-        }
-      },
-      { rootMargin: '0px 0px -10% 0px' }
-    );
-    io.observe(ref.current);
-    return () => { clearTimeout(fallback); io.disconnect(); };
-  }, []);
-
+export default function CareerRow({ entry, isLast, visible }: Props) {
   const art = LANDMARKS[entry.landmark];
   const isNow = entry.badge === '継続中' || entry.badge === '在学中';
 
   return (
     <article
-      ref={ref}
-      className={`cq-row grid grid-cols-[140px_28px_minmax(0,1fr)] items-stretch relative pb-7 max-[900px]:grid-cols-1 max-[900px]:pb-6 ${visible ? 'in' : ''} ${isLast ? 'last' : ''}`}
+      className={`grid grid-cols-[140px_28px_minmax(0,1fr)] items-stretch relative pb-7 max-[900px]:grid-cols-1 max-[900px]:pb-6 ${isLast ? 'last' : ''}`}
       style={{ '--accent': entry.accent } as React.CSSProperties}
     >
       {/* Left meta column */}
       <div className="pt-[30px] text-right pr-[18px] flex flex-col gap-2 items-end max-[900px]:flex-row max-[900px]:items-center max-[900px]:justify-start max-[900px]:text-left max-[900px]:p-0 max-[900px]:pb-3 max-[900px]:gap-3">
-        <span className="font-mono text-[15px] font-semibold text-ink tracking-[0.02em] leading-tight whitespace-nowrap">
+        <span className="font-mono text-[15px] font-semibold text-ink tracking-[0.02em] leading-tight max-[400px]:text-[13px]">
           {entry.year}
         </span>
         <span

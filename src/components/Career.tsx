@@ -4,12 +4,14 @@ import { useState } from 'react';
 import SectionHead from './SectionHead';
 import CareerRow from './CareerRow';
 import { CAREER_ENTRIES } from '@/data/career';
+import { useInView, fadeUpStyle } from '@/hooks/useInView';
 
 const TABS = ['全て', '学歴', '職歴'] as const;
 type Tab = (typeof TABS)[number];
 
 export default function Career() {
   const [activeTab, setActiveTab] = useState<Tab>('全て');
+  const [ref, inView] = useInView<HTMLDivElement>();
 
   const filtered = activeTab === '全て'
     ? CAREER_ENTRIES
@@ -38,9 +40,11 @@ export default function Career() {
         ))}
       </div>
 
-      <div className="flex flex-col">
+      <div ref={ref} className="flex flex-col">
         {filtered.map((e, i) => (
-          <CareerRow key={e.id} entry={e} isLast={i === filtered.length - 1} />
+          <div key={e.id} style={fadeUpStyle(inView, i, 45)}>
+            <CareerRow entry={e} isLast={i === filtered.length - 1} visible={inView} />
+          </div>
         ))}
       </div>
     </section>
