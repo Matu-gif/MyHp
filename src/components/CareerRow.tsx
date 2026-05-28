@@ -1,6 +1,5 @@
 'use client';
 
-import { useRef, useState, useEffect } from 'react';
 import PixelGrid from './PixelGrid';
 import { LANDMARKS } from '@/data/pixel-art';
 import type { CareerEntry } from '@/data/career';
@@ -8,36 +7,16 @@ import type { CareerEntry } from '@/data/career';
 type Props = {
   entry: CareerEntry;
   isLast: boolean;
+  visible: boolean;
 };
 
-export default function CareerRow({ entry, isLast }: Props) {
-  const ref = useRef<HTMLElement>(null);
-  const [visible, setVisible] = useState(true);
-
-  useEffect(() => {
-    if (!ref.current) return;
-    setVisible(false);
-    const fallback = setTimeout(() => setVisible(true), 400);
-    const io = new IntersectionObserver(
-      ([e]) => {
-        if (e.isIntersecting) {
-          clearTimeout(fallback);
-          setVisible(true);
-        }
-      },
-      { rootMargin: '0px 0px -10% 0px' }
-    );
-    io.observe(ref.current);
-    return () => { clearTimeout(fallback); io.disconnect(); };
-  }, []);
-
+export default function CareerRow({ entry, isLast, visible }: Props) {
   const art = LANDMARKS[entry.landmark];
   const isNow = entry.badge === '継続中' || entry.badge === '在学中';
 
   return (
     <article
-      ref={ref}
-      className={`cq-row grid grid-cols-[140px_28px_minmax(0,1fr)] items-stretch relative pb-7 max-[900px]:grid-cols-1 max-[900px]:pb-6 ${visible ? 'in' : ''} ${isLast ? 'last' : ''}`}
+      className={`grid grid-cols-[140px_28px_minmax(0,1fr)] items-stretch relative pb-7 max-[900px]:grid-cols-1 max-[900px]:pb-6 ${isLast ? 'last' : ''}`}
       style={{ '--accent': entry.accent } as React.CSSProperties}
     >
       {/* Left meta column */}

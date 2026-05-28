@@ -7,7 +7,8 @@ const SECTIONS = [
   { id: 'career', label: '02 / career' },
   { id: 'skills', label: '03 / skills' },
   { id: 'domains', label: '04 / domains' },
-  { id: 'contact', label: '05 / contact' },
+  { id: 'works', label: '05 / works' },
+  { id: 'contact', label: '06 / contact' },
 ];
 
 export default function Nav() {

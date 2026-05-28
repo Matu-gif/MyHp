@@ -48,6 +48,14 @@
 - [x] ブラウザ確認
 - [x] ビルド確認
 
+## フェーズ 8: Works セクション追加
+- [x] `src/data/works.ts` — WorkItem 型 + 仮データ 3件
+- [x] `src/components/Works.tsx` — Works セクションコンポーネント
+- [x] `src/app/page.tsx` — Works を Domains と Contact の間に追加
+- [x] `src/components/Nav.tsx` — works(05) 追加、contact を 06 に変更
+- [x] `src/components/Contact.tsx` — SectionHead num="05" → "06"
+- [x] ブラウザ確認
+
 ## 検証
 - [x] ブラウザ表示確認 (デスクトップ + モバイル)
 - [x] 元デザインとの比較

@@ -1,7 +1,10 @@
+'use client';
+
 import SectionHead from './SectionHead';
 import PixelGrid from './PixelGrid';
 import { DOMAIN_CARDS } from '@/data/domains';
 import { PALETTE } from '@/data/pixel-art';
+import { useInView, fadeUpStyle } from '@/hooks/useInView';
 
 function decoFor(color: string) {
   const c = color;
@@ -33,15 +36,17 @@ const subStyles = {
 } as const;
 
 export default function Domains() {
+  const [ref, inView] = useInView<HTMLDivElement>();
+
   return (
     <section id="domains" className="shell section-pad">
       <SectionHead num="04" title="Domains." jp="// 得意・伸ばしたい・興味" />
 
-      <div className="grid grid-cols-3 gap-[18px] max-[900px]:grid-cols-1">
-        {DOMAIN_CARDS.map((c) => (
+      <div ref={ref} className="grid grid-cols-3 gap-[18px] max-[900px]:grid-cols-1">
+        {DOMAIN_CARDS.map((c, i) => (
+          <div key={c.num} style={fadeUpStyle(inView, i)}>
           <article
-            key={c.num}
-            className={`relative p-7 rounded-[var(--radius-lg)] min-h-[260px] flex flex-col transition-all duration-200 overflow-hidden border hover:-translate-x-[3px] hover:-translate-y-[3px] ${cardStyles[c.cls]}`}
+            className={`h-full relative p-7 rounded-[var(--radius-lg)] min-h-[260px] flex flex-col transition-all duration-200 overflow-hidden border hover:-translate-x-[3px] hover:-translate-y-[3px] ${cardStyles[c.cls]}`}
           >
             <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-72 mb-3">
               {c.kicker}
@@ -69,6 +74,7 @@ export default function Domains() {
               {c.num}
             </span>
           </article>
+          </div>
         ))}
       </div>
     </section>
