@@ -1,0 +1,570 @@
+[     602ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[     656ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[     953ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[     986ms] [LOG] [Fast Refresh] done in 146ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[  181388ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[  181415ms] [LOG] [Fast Refresh] done in 60ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[  763115ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[  763143ms] [LOG] [Fast Refresh] done in 79ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[  772687ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[  772775ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[  922362ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[  922377ms] [LOG] [Fast Refresh] done in 116ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1189062ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1189090ms] [LOG] [Fast Refresh] done in 63ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1375153ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1375295ms] [LOG] [Fast Refresh] done in 148ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1379973ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1380294ms] [LOG] [Fast Refresh] done in 394ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1381073ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1381276ms] [LOG] [Fast Refresh] done in 50ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1391300ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1391355ms] [LOG] [Fast Refresh] done in 61ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1391498ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1391525ms] [LOG] [Fast Refresh] done in 78ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1393176ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1393204ms] [LOG] [Fast Refresh] done in 43ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1393392ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1393554ms] [LOG] [Fast Refresh] done in 61ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1393894ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1394018ms] [LOG] [Fast Refresh] done in 195ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1610118ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1610168ms] [LOG] [Fast Refresh] done in 84ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1610258ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1610284ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1610381ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1610409ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1610544ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1610571ms] [LOG] [Fast Refresh] done in 38ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1610724ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1610732ms] [LOG] [Fast Refresh] done in 5ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1610888ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1610917ms] [LOG] [Fast Refresh] done in 38ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1611142ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1611168ms] [LOG] [Fast Refresh] done in 32ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1612149ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1612178ms] [LOG] [Fast Refresh] done in 29ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1612357ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1612385ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1620283ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1620306ms] [LOG] [Fast Refresh] done in 61ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1620403ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1620431ms] [LOG] [Fast Refresh] done in 23ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1620510ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1620538ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1620646ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1620675ms] [LOG] [Fast Refresh] done in 22ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1620924ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1620952ms] [LOG] [Fast Refresh] done in 35ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1621324ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1621353ms] [LOG] [Fast Refresh] done in 47ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1621590ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1621617ms] [LOG] [Fast Refresh] done in 23ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1621722ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1621749ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1621879ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1621908ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1622592ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1622619ms] [LOG] [Fast Refresh] done in 27ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1623046ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1623075ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1623243ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1623272ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1728793ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1728817ms] [LOG] [Fast Refresh] done in 43ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1729581ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1729611ms] [LOG] [Fast Refresh] done in 23ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1730062ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1730088ms] [LOG] [Fast Refresh] done in 23ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1734272ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1734302ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1734442ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1734469ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1734655ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1734683ms] [LOG] [Fast Refresh] done in 23ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1735043ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1735071ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1736041ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1736067ms] [LOG] [Fast Refresh] done in 27ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1736149ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1736176ms] [LOG] [Fast Refresh] done in 24ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1736326ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1736355ms] [LOG] [Fast Refresh] done in 29ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1740204ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1740231ms] [LOG] [Fast Refresh] done in 31ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1740543ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1740571ms] [LOG] [Fast Refresh] done in 32ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1741006ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1741036ms] [LOG] [Fast Refresh] done in 24ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1742413ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1742439ms] [LOG] [Fast Refresh] done in 32ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1742554ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1742582ms] [LOG] [Fast Refresh] done in 23ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1742719ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1742748ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1742861ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1742890ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1743291ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1743319ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1743408ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1743437ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1743590ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1743616ms] [LOG] [Fast Refresh] done in 24ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1792462ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1792502ms] [LOG] [Fast Refresh] done in 111ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1792938ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1792968ms] [LOG] [Fast Refresh] done in 75ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1795223ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1795251ms] [LOG] [Fast Refresh] done in 128ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1825284ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1825306ms] [LOG] [Fast Refresh] done in 56ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1825633ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1825655ms] [LOG] [Fast Refresh] done in 35ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1827189ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1827234ms] [LOG] [Fast Refresh] done in 52ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1850754ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1850783ms] [LOG] [Fast Refresh] done in 100ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1954995ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1955284ms] [ERROR] ./ShoutaMatsuo_Website/src/components/Works.tsx:30:3
+Expression expected
+  28 |     cardBgClass: 'bg-green-soft',
+  29 |     hoverClass:
+> 30 |   },
+     |   ^
+  31 | ];
+  32 |
+  33 | function WorkBlock({ work, index }: { work: ...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./ShoutaMatsuo_Website/src/components/Works.tsx
+    ./ShoutaMatsuo_Website/src/app/page.tsx @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:3318
+[ 1955386ms] [ERROR] ./ShoutaMatsuo_Website/src/components/Works.tsx:30:3
+Expression expected
+  28 |     cardBgClass: 'bg-green-soft',
+  29 |     hoverClass:
+> 30 |   },
+     |   ^
+  31 | ];
+  32 |
+  33 | function WorkBlock({ work, index }: { work: ...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./ShoutaMatsuo_Website/src/components/Works.tsx
+    ./ShoutaMatsuo_Website/src/app/page.tsx @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:3318
+[ 1955489ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1955588ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1955595ms] [LOG] [Fast Refresh] done in 197ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1955696ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1956967ms] [LOG] [Fast Refresh] done in 1372ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1957221ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1957721ms] ReferenceError: hoverClass is not defined
+    at module evaluation (http://localhost:3000/_next/static/chunks/ShoutaMatsuo_Website_src_0hecd31._.js?id=%255Bproject%255D%252FShoutaMatsuo_Website%252Fsrc%252Fcomponents%252FWorks.tsx+%255Bapp-client%255D+%2528ecmascript%2529:34:9)
+    at http://localhost:3000/_next/static/chunks/turbopack-ShoutaMatsuo_Website_0o~ov2a._.js:1307:27
+    at runModuleExecutionHooks (http://localhost:3000/_next/static/chunks/turbopack-ShoutaMatsuo_Website_0o~ov2a._.js:1636:13)
+    at instantiateModuleShared (http://localhost:3000/_next/static/chunks/turbopack-ShoutaMatsuo_Website_0o~ov2a._.js:1305:9)
+    at instantiateModule (http://localhost:3000/_next/static/chunks/turbopack-ShoutaMatsuo_Website_0o~ov2a._.js:1621:12)
+    at applyPhase (http://localhost:3000/_next/static/chunks/turbopack-ShoutaMatsuo_Website_0o~ov2a._.js:1479:13)
+    at applyInternal (http://localhost:3000/_next/static/chunks/turbopack-ShoutaMatsuo_Website_0o~ov2a._.js:1513:5)
+    at applyEcmascriptMergedUpdateShared (http://localhost:3000/_next/static/chunks/turbopack-ShoutaMatsuo_Website_0o~ov2a._.js:1532:5)
+    at applyEcmascriptMergedUpdate (http://localhost:3000/_next/static/chunks/turbopack-ShoutaMatsuo_Website_0o~ov2a._.js:1768:5)
+    at applyChunkListUpdate (http://localhost:3000/_next/static/chunks/turbopack-ShoutaMatsuo_Website_0o~ov2a._.js:1733:21)
+    at applyUpdate (http://localhost:3000/_next/static/chunks/turbopack-ShoutaMatsuo_Website_0o~ov2a._.js:1722:13)
+    at handleApply (http://localhost:3000/_next/static/chunks/turbopack-ShoutaMatsuo_Website_0o~ov2a._.js:1785:17)
+    at triggerUpdate (http://localhost:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_0yjw1oe._.js:456:9)
+    at applyAggregatedUpdates (http://localhost:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_0yjw1oe._.js:98:9)
+    at http://localhost:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_0yjw1oe._.js:32:21
+    at processTurbopackMessage (http://localhost:3000/_next/static/chunks/0l39_next_dist_client_0w.yyjq._.js:13394:13)
+    at processMessage (http://localhost:3000/_next/static/chunks/0l39_next_dist_client_0w.yyjq._.js:13961:17)
+    at WebSocket.handleMessage (http://localhost:3000/_next/static/chunks/0l39_next_dist_client_0w.yyjq._.js:13358:52)
+[ 1957422ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1957928ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1957929ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1958067ms] [LOG] [Fast Refresh] done in 616ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1958272ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1958273ms] [LOG] [Fast Refresh] done in 102ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1958582ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1958619ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1974607ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1974617ms] [LOG] [Fast Refresh] done in 111ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1978519ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1978552ms] [LOG] [Fast Refresh] done in 135ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1980226ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1980248ms] [LOG] [Fast Refresh] done in 123ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1982594ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1982842ms] [LOG] [Fast Refresh] done in 86ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1982993ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1983002ms] [LOG] [Fast Refresh] done in 110ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1983206ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1983317ms] [ERROR] ./ShoutaMatsuo_Website/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/shoutamatsu/ShoutaMatsuo_Website/src/app/globals.css:23:3: Unknown word --font-jp
+    [at Input.error (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:602:22)]
+    [at Parser.decl (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:242:14)]
+    [at Parser.other (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:408:18)]
+    [at Parser.parse (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:479:16)]
+    [at parser (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./ShoutaMatsuo_Website/src/app/globals.css [Client Component Browser]
+    ./ShoutaMatsuo_Website/src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:3318
+[ 1983639ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1984787ms] [LOG] [Fast Refresh] done in 1168ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1985299ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1985408ms] [LOG] [Fast Refresh] done in 236ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1986622ms] [ERROR] ./ShoutaMatsuo_Website/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/shoutamatsu/ShoutaMatsuo_Website/src/app/globals.css:23:3: Unknown word --font-jp
+    [at Input.error (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:602:22)]
+    [at Parser.decl (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:242:14)]
+    [at Parser.other (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:408:18)]
+    [at Parser.parse (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:479:16)]
+    [at parser (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./ShoutaMatsuo_Website/src/app/globals.css [Client Component Browser]
+    ./ShoutaMatsuo_Website/src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:3318
+[ 1986748ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1987311ms] [ERROR] ./ShoutaMatsuo_Website/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/shoutamatsu/ShoutaMatsuo_Website/src/app/globals.css:23:3: Unknown word --font-jp
+    [at Input.error (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:602:22)]
+    [at Parser.decl (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:242:14)]
+    [at Parser.other (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:408:18)]
+    [at Parser.parse (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:479:16)]
+    [at parser (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./ShoutaMatsuo_Website/src/app/globals.css [Client Component Browser]
+    ./ShoutaMatsuo_Website/src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:3318
+[ 1987412ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1988463ms] [ERROR] ./ShoutaMatsuo_Website/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/shoutamatsu/ShoutaMatsuo_Website/src/app/globals.css:23:3: Unknown word --font-jp
+    [at Input.error (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:602:22)]
+    [at Parser.decl (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:242:14)]
+    [at Parser.other (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:408:18)]
+    [at Parser.parse (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:479:16)]
+    [at parser (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./ShoutaMatsuo_Website/src/app/globals.css [Client Component Browser]
+    ./ShoutaMatsuo_Website/src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:3318
+[ 1988575ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1988764ms] [ERROR] ./ShoutaMatsuo_Website/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/shoutamatsu/ShoutaMatsuo_Website/src/app/globals.css:23:3: Unknown word --font-jp
+    [at Input.error (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:602:22)]
+    [at Parser.decl (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:242:14)]
+    [at Parser.other (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:408:18)]
+    [at Parser.parse (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:479:16)]
+    [at parser (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./ShoutaMatsuo_Website/src/app/globals.css [Client Component Browser]
+    ./ShoutaMatsuo_Website/src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:3318
+[ 1989373ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1989543ms] [ERROR] ./ShoutaMatsuo_Website/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/shoutamatsu/ShoutaMatsuo_Website/src/app/globals.css:23:3: Unknown word --font-jp
+    [at Input.error (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:602:22)]
+    [at Parser.decl (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:242:14)]
+    [at Parser.other (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:408:18)]
+    [at Parser.parse (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:479:16)]
+    [at parser (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./ShoutaMatsuo_Website/src/app/globals.css [Client Component Browser]
+    ./ShoutaMatsuo_Website/src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:3318
+[ 1989959ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1991671ms] [ERROR] ./ShoutaMatsuo_Website/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/shoutamatsu/ShoutaMatsuo_Website/src/app/globals.css:23:3: Unknown word --font-jp
+    [at Input.error (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:602:22)]
+    [at Parser.decl (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:242:14)]
+    [at Parser.other (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:408:18)]
+    [at Parser.parse (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:479:16)]
+    [at parser (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./ShoutaMatsuo_Website/src/app/globals.css [Client Component Browser]
+    ./ShoutaMatsuo_Website/src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:3318
+[ 1991792ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1991936ms] [ERROR] ./ShoutaMatsuo_Website/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/shoutamatsu/ShoutaMatsuo_Website/src/app/globals.css:23:3: Unknown word --font-jp
+    [at Input.error (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:602:22)]
+    [at Parser.decl (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:242:14)]
+    [at Parser.other (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:408:18)]
+    [at Parser.parse (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:479:16)]
+    [at parser (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./ShoutaMatsuo_Website/src/app/globals.css [Client Component Browser]
+    ./ShoutaMatsuo_Website/src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:3318
+[ 1992117ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1992265ms] [ERROR] ./ShoutaMatsuo_Website/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/shoutamatsu/ShoutaMatsuo_Website/src/app/globals.css:23:3: Unknown word --font-jp
+    [at Input.error (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:602:22)]
+    [at Parser.decl (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:242:14)]
+    [at Parser.other (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:408:18)]
+    [at Parser.parse (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:479:16)]
+    [at parser (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./ShoutaMatsuo_Website/src/app/globals.css [Client Component Browser]
+    ./ShoutaMatsuo_Website/src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:3318
+[ 1992639ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1992800ms] [ERROR] ./ShoutaMatsuo_Website/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/shoutamatsu/ShoutaMatsuo_Website/src/app/globals.css:23:3: Unknown word --font-jp
+    [at Input.error (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:602:22)]
+    [at Parser.decl (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:242:14)]
+    [at Parser.other (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:408:18)]
+    [at Parser.parse (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:479:16)]
+    [at parser (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./ShoutaMatsuo_Website/src/app/globals.css [Client Component Browser]
+    ./ShoutaMatsuo_Website/src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:3318
+[ 1992945ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1993137ms] [ERROR] ./ShoutaMatsuo_Website/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/shoutamatsu/ShoutaMatsuo_Website/src/app/globals.css:23:3: Unknown word --font-jp
+    [at Input.error (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:602:22)]
+    [at Parser.decl (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:242:14)]
+    [at Parser.other (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:408:18)]
+    [at Parser.parse (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:479:16)]
+    [at parser (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./ShoutaMatsuo_Website/src/app/globals.css [Client Component Browser]
+    ./ShoutaMatsuo_Website/src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:3318
+[ 1993239ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1993620ms] [ERROR] ./ShoutaMatsuo_Website/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/shoutamatsu/ShoutaMatsuo_Website/src/app/globals.css:23:3: Unknown word --font-jp
+    [at Input.error (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:602:22)]
+    [at Parser.decl (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:242:14)]
+    [at Parser.other (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:408:18)]
+    [at Parser.parse (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parser.js:479:16)]
+    [at parser (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/ShoutaMatsuo_Website/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./ShoutaMatsuo_Website/src/app/globals.css [Client Component Browser]
+    ./ShoutaMatsuo_Website/src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:3318
+[ 1994432ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 1994724ms] [LOG] [Fast Refresh] done in 372ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2000084ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2000107ms] [LOG] [Fast Refresh] done in 59ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2000255ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2000282ms] [LOG] [Fast Refresh] done in 66ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2000309ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2000353ms] [LOG] [Fast Refresh] done in 27ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2000442ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2000470ms] [LOG] [Fast Refresh] done in 34ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2000575ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2000602ms] [LOG] [Fast Refresh] done in 38ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2000711ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2000738ms] [LOG] [Fast Refresh] done in 27ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2000880ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2000907ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2001270ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2001301ms] [LOG] [Fast Refresh] done in 32ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2001460ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2001488ms] [LOG] [Fast Refresh] done in 24ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2001580ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2001609ms] [LOG] [Fast Refresh] done in 23ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2002486ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2002506ms] [LOG] [Fast Refresh] done in 51ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2047578ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2047600ms] [LOG] [Fast Refresh] done in 57ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2047748ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2047776ms] [LOG] [Fast Refresh] done in 31ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2047801ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2047829ms] [LOG] [Fast Refresh] done in 25ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2047876ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2047904ms] [LOG] [Fast Refresh] done in 47ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2048095ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2048123ms] [LOG] [Fast Refresh] done in 33ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2048255ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2048260ms] [LOG] [Fast Refresh] done in 70ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2048417ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2048446ms] [LOG] [Fast Refresh] done in 39ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2048478ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2048507ms] [LOG] [Fast Refresh] done in 22ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2049065ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2049093ms] [LOG] [Fast Refresh] done in 24ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2169928ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2170164ms] [LOG] [Fast Refresh] done in 338ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2179275ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2179387ms] [LOG] [Fast Refresh] done in 188ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2201794ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2201812ms] [LOG] [Fast Refresh] done in 81ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2208890ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2208917ms] [LOG] [Fast Refresh] done in 42ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2332643ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2332670ms] [LOG] [Fast Refresh] done in 92ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2332695ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2332862ms] [LOG] [Fast Refresh] done in 25ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2332916ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2332931ms] [LOG] [Fast Refresh] done in 2ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2333113ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2333126ms] [LOG] [Fast Refresh] done in 4ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2333382ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2333387ms] [LOG] [Fast Refresh] done in 217ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2333388ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2333392ms] [LOG] [Fast Refresh] done in 1ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2333640ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2333692ms] [LOG] [Fast Refresh] done in 46ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2333852ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2333875ms] [LOG] [Fast Refresh] done in 79ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2334214ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2334225ms] [LOG] [Fast Refresh] done in 173ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2334395ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2334400ms] [LOG] [Fast Refresh] done in 118ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2334584ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2334589ms] [LOG] [Fast Refresh] done in 134ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2334633ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2334663ms] [LOG] [Fast Refresh] done in 33ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2334752ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2334781ms] [LOG] [Fast Refresh] done in 33ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2335123ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2335149ms] [LOG] [Fast Refresh] done in 29ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2335280ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2335310ms] [LOG] [Fast Refresh] done in 36ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2335587ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2335616ms] [LOG] [Fast Refresh] done in 31ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2335785ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2335816ms] [LOG] [Fast Refresh] done in 33ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2337149ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2337183ms] [LOG] [Fast Refresh] done in 47ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2527316ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2527333ms] [LOG] [Fast Refresh] done in 81ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2603930ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2603955ms] [LOG] [Fast Refresh] done in 55ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2752070ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2752105ms] [LOG] [Fast Refresh] done in 102ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2846755ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2846778ms] [LOG] [Fast Refresh] done in 89ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2947720ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 2947740ms] [LOG] [Fast Refresh] done in 97ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 3031362ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 3031384ms] [LOG] [Fast Refresh] done in 71ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 3031710ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 3031737ms] [LOG] [Fast Refresh] done in 100ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 3032213ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 3032262ms] [LOG] [Fast Refresh] done in 121ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 3032690ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 3032743ms] [LOG] [Fast Refresh] done in 126ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 3043058ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 3043096ms] [LOG] [Fast Refresh] done in 92ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 3043150ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 3043177ms] [LOG] [Fast Refresh] done in 43ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 3076850ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 3076884ms] [LOG] [Fast Refresh] done in 63ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 3077283ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 3077292ms] [LOG] [Fast Refresh] done in 347ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 3101048ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 3101062ms] [LOG] [Fast Refresh] done in 116ms @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 5423482ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477
+[ 9550161ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0l39_next_dist_0ckjypb._.js:2477

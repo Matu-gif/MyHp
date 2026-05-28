@@ -1,0 +1,303 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "matsuo.dev" [ref=e4] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e22]: matsuo.dev
+      - generic [ref=e23]:
+        - link "01 / top" [ref=e24] [cursor=pointer]:
+          - /url: "#top"
+          - text: 01 / top
+        - link "02 / career" [ref=e26] [cursor=pointer]:
+          - /url: "#career"
+        - link "03 / skills" [ref=e27] [cursor=pointer]:
+          - /url: "#skills"
+        - link "04 / domains" [ref=e28] [cursor=pointer]:
+          - /url: "#domains"
+        - link "05 / works" [ref=e29] [cursor=pointer]:
+          - /url: "#works"
+        - link "06 / contact" [ref=e30] [cursor=pointer]:
+          - /url: "#contact"
+      - link "→ contact" [ref=e31] [cursor=pointer]:
+        - /url: "#contact"
+  - main [ref=e32]:
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]: AVAILABLE · 25h+/week · 要相談
+        - heading "Shota Matsuo." [level=1] [ref=e37]:
+          - text: Shota
+          - text: Matsuo.
+        - paragraph [ref=e38]:
+          - text: API を主戦場にするフルスタックエンジニア。
+          - text: Next.js × TypeScript × Supabase を軸に、外部サービスをつなぎ合わせてWebサイトやシステムを作るのが得意です。
+          - text: 最近はClaudeを使うことにハマってます。
+        - generic [ref=e39]:
+          - link "深く知る →" [ref=e40] [cursor=pointer]:
+            - /url: "#career"
+            - text: 深く知る
+            - generic [ref=e41]: →
+          - link "お問い合わせ →" [ref=e42] [cursor=pointer]:
+            - /url: "#contact"
+            - text: お問い合わせ
+            - generic [ref=e43]: →
+      - generic [ref=e44]:
+        - img [ref=e46]
+        - generic [ref=e199]: shota@matsuo — zsh — 80×24
+        - generic [ref=e201]: → drag · hover · explore
+    - generic [ref=e202]:
+      - generic [ref=e203]:
+        - generic [ref=e204]: "02"
+        - heading "Career." [level=2] [ref=e205]
+        - generic [ref=e206]: // 経歴
+      - generic [ref=e207]:
+        - button "全て" [ref=e208] [cursor=pointer]: 全て
+        - button "学歴" [ref=e210] [cursor=pointer]
+        - button "職歴" [ref=e211] [cursor=pointer]
+      - generic [ref=e212]:
+        - article [ref=e214]:
+          - generic [ref=e215]:
+            - generic [ref=e216]: "2022.03"
+            - generic [ref=e217]: 学歴
+          - generic [ref=e221]:
+            - img [ref=e223]
+            - generic [ref=e510]:
+              - generic [ref=e512]: 卒業
+              - heading "秋田南中学校 卒業" [level=3] [ref=e513]
+              - paragraph [ref=e514]: 義務教育の修了
+        - article [ref=e516]:
+          - generic [ref=e517]:
+            - generic [ref=e518]: 2022 — 2023
+            - generic [ref=e519]: 学歴
+          - generic [ref=e523]:
+            - img [ref=e525]
+            - generic [ref=e812]:
+              - generic [ref=e814]: 中退
+              - heading "秋田令和高等学校 2年次途中で退学" [level=3] [ref=e815]:
+                - text: 秋田令和高等学校
+                - generic [ref=e816]: 2年次途中で退学
+              - paragraph [ref=e817]: 大学受験のために大きな決断をし、努力を開始
+              - link "visit website ↗" [ref=e818] [cursor=pointer]:
+                - /url: https://www.akitareiwa-h.ed.jp/
+                - text: visit website
+                - generic [ref=e819]: ↗
+        - article [ref=e821]:
+          - generic [ref=e822]:
+            - generic [ref=e823]: 2022 夏
+            - generic [ref=e824]: 職歴
+          - generic [ref=e828]:
+            - img [ref=e830]
+            - generic [ref=e1090]:
+              - generic [ref=e1092]: 退職
+              - heading "紅谷商事株式会社 メガ新田店 短期アルバイト" [level=3] [ref=e1093]:
+                - text: 紅谷商事株式会社 メガ新田店
+                - generic [ref=e1094]: 短期アルバイト
+              - paragraph [ref=e1095]: 社会との最初の接点
+        - article [ref=e1097]:
+          - generic [ref=e1098]:
+            - generic [ref=e1099]: 2025 3月
+            - generic [ref=e1100]: 職歴
+          - generic [ref=e1104]:
+            - img [ref=e1106]
+            - generic [ref=e1457]:
+              - generic [ref=e1459]: 退職
+              - heading "㈱みづきブーケティング低温センター 短期アルバイト" [level=3] [ref=e1460]:
+                - text: ㈱みづきブーケティング低温センター
+                - generic [ref=e1461]: 短期アルバイト
+              - paragraph [ref=e1462]: 花束の制作から出荷までの業務を経験
+        - article [ref=e1464]:
+          - generic [ref=e1465]:
+            - generic [ref=e1466]: 2025.4 — 現在
+            - generic [ref=e1467]: 学歴
+          - generic [ref=e1471]:
+            - img [ref=e1473]
+            - generic [ref=e1714]:
+              - generic [ref=e1716]: 在学中
+              - heading "情報経営イノベーション専門職大学（iU）" [level=3] [ref=e1718]
+              - paragraph [ref=e1719]: ビジネス × IT を実践で学ぶフィールドへ
+              - link "visit website ↗" [ref=e1720] [cursor=pointer]:
+                - /url: https://www.i-u.ac.jp/
+                - text: visit website
+                - generic [ref=e1721]: ↗
+        - article [ref=e1723]:
+          - generic [ref=e1724]:
+            - generic [ref=e1725]: 2025.11 — 2026.04
+            - generic [ref=e1726]: 職歴
+          - generic [ref=e1730]:
+            - img [ref=e1732]
+            - generic [ref=e2004]:
+              - generic [ref=e2006]: 案件
+              - heading "K-PASS 様 初めてのお仕事としての開発" [level=3] [ref=e2007]:
+                - text: K-PASS 様
+                - generic [ref=e2008]: 初めてのお仕事としての開発
+              - paragraph [ref=e2009]: HP・予約システムの開発に参加
+        - article [ref=e2011]:
+          - generic [ref=e2012]:
+            - generic [ref=e2013]: 2025.12 — 現在
+            - generic [ref=e2014]: 職歴
+          - generic [ref=e2018]:
+            - img [ref=e2020]
+            - generic [ref=e2257]:
+              - generic [ref=e2259]: 継続中
+              - heading "株式会社 Onigo アルバイト" [level=3] [ref=e2261]:
+                - text: 株式会社 Onigo
+                - generic [ref=e2262]: アルバイト
+              - paragraph [ref=e2263]: 商品をスーパーから持ってきて、配達員に渡す
+        - article [ref=e2265]:
+          - generic [ref=e2266]:
+            - generic [ref=e2267]: 2026.05 — 現在
+            - generic [ref=e2268]: 職歴
+          - generic [ref=e2272]:
+            - img [ref=e2274]
+            - generic [ref=e2511]:
+              - generic [ref=e2513]: 継続中
+              - heading "Teach Leader システム機能開発" [level=3] [ref=e2515]:
+                - text: Teach Leader
+                - generic [ref=e2516]: システム機能開発
+              - paragraph [ref=e2517]: プロダクトの機能拡張を担当。最前線へ。
+    - generic [ref=e2518]:
+      - generic [ref=e2519]:
+        - generic [ref=e2520]: "03"
+        - heading "Skills & Stack." [level=2] [ref=e2521]
+        - generic [ref=e2522]: // 使える道具たち
+      - generic [ref=e2523]:
+        - generic [ref=e2525]:
+          - generic [ref=e2526]: Languages / Frameworks
+          - generic [ref=e2528]:
+            - generic [ref=e2529]: Next.js
+            - generic [ref=e2530]: TypeScript
+            - generic [ref=e2531]: Tailwind CSS
+            - generic [ref=e2532]: React
+            - generic [ref=e2533]: Node.js
+        - generic [ref=e2535]:
+          - generic [ref=e2536]: Database / Backend
+          - generic [ref=e2538]:
+            - generic [ref=e2539]: Supabase
+            - generic [ref=e2540]: PostgreSQL
+            - generic [ref=e2541]: Auth / RLS
+        - generic [ref=e2543]:
+          - generic [ref=e2544]: API / Integrations
+          - generic [ref=e2546]:
+            - generic [ref=e2547]: Resend
+            - generic [ref=e2548]: LINE Messaging API
+            - generic [ref=e2549]: Google Meet REST
+            - generic [ref=e2550]: Google Calendar API
+        - generic [ref=e2552]:
+          - generic [ref=e2553]: Workflow / Tools
+          - generic [ref=e2555]:
+            - generic [ref=e2556]: Git
+            - generic [ref=e2557]: GitHub
+            - generic [ref=e2558]: Google Workspace
+            - generic [ref=e2559]: VS Code
+            - generic [ref=e2560]: Claude Code Pro
+      - generic [ref=e2561]:
+        - generic [ref=e2562]:
+          - generic [ref=e2563]: ENV
+          - text: · MacBook Air M1 / 16GB
+        - generic [ref=e2564]:
+          - generic [ref=e2565]: OS
+          - text: · macOS
+        - generic [ref=e2566]:
+          - generic [ref=e2567]: EDITOR
+          - text: · VS Code + Claude Code Pro
+        - generic [ref=e2568]:
+          - generic [ref=e2569]: SHELL
+          - text: · zsh
+    - generic [ref=e2570]:
+      - generic [ref=e2571]:
+        - generic [ref=e2572]: "04"
+        - heading "Domains." [level=2] [ref=e2573]
+        - generic [ref=e2574]: // 得意・伸ばしたい・興味
+      - generic [ref=e2575]:
+        - article [ref=e2577]:
+          - generic [ref=e2578]: // strength
+          - heading "得意領域" [level=3] [ref=e2579]
+          - generic [ref=e2580]:
+            - generic [ref=e2581]: APIを用いた開発
+            - generic [ref=e2582]: 技術のキャッチアップ
+          - paragraph [ref=e2583]: 外部サービスやSaaSをAPIで連携させ、新しい体験を作り出すのが得意です。Resend、LINE Messaging API、Google Calendar / Meet API などを軸に、既存のワークフローを自動化・拡張する小さなプロダクトを設計・実装してきました。今まで頂いたお仕事に関して、ほとんど触ったことのないような技術を自ら調べ、学びなんとか仕事をこなしてきました。今後も、割り振られた仕事に対して知らないことを自ら調べなんとかします。
+          - img [ref=e2585]
+          - generic [ref=e2622]: "01"
+        - article [ref=e2624]:
+          - generic [ref=e2625]: // weakness
+          - heading "苦手な領域" [level=3] [ref=e2626]
+          - generic [ref=e2628]: APIを使わない開発
+          - paragraph [ref=e2629]: API連携だけに頼らず、コスト削減のためにあえて複雑な機能を自前で実装できると思えないため、そのようなことをできるようになりたいと考えています。
+          - img [ref=e2631]
+          - generic [ref=e2668]: "02"
+        - article [ref=e2670]:
+          - generic [ref=e2671]: // curious
+          - heading "興味のある領域" [level=3] [ref=e2672]
+          - generic [ref=e2673]:
+            - generic [ref=e2674]: AI を組み込んだサービス開発
+            - generic [ref=e2675]: AI活用
+            - generic [ref=e2676]: AI と人の関わり
+          - paragraph [ref=e2677]: 「LLMをプロダクトに組み込むこと」・「AIを日々の生活や業務に活かすこと」の両方に興味があります。例えば、プロンプト設計、エージェント構築、Claudeデスクトップによる自動化やClaudeを使ったWebサイト制作など、AIの活用に強い関心があります。業務とは直接関係しないかもしれませんが、AIと人の関わりに興味も抱いています。例えば、アニメで言うとSAOの「ゆい」というキャラクターや、AI Vtuberあたりがすごいイメージに近いです。
+          - img [ref=e2679]
+          - generic [ref=e2716]: "03"
+    - generic [ref=e2717]:
+      - generic [ref=e2718]:
+        - generic [ref=e2719]: "05"
+        - heading "Works." [level=2] [ref=e2720]
+        - generic [ref=e2721]: // 制作物
+      - generic [ref=e2722]:
+        - generic [ref=e2723]:
+          - generic [ref=e2725]: "01"
+          - article [ref=e2727]:
+            - heading "K-PASS様のホームページ" [level=3] [ref=e2729]
+            - generic [ref=e2730]:
+              - generic [ref=e2731]: Next.js
+              - generic [ref=e2732]: TypeScript
+              - generic [ref=e2733]: Supabase
+            - paragraph [ref=e2734]: 合格実績ページの改善、コース・料金ページの土台作成、フォームからのメール送信、LINEグループへの通知などの機能の開発を行いました。
+            - link "→ https://kpass.jp/" [ref=e2736] [cursor=pointer]:
+              - /url: https://kpass.jp/
+        - generic [ref=e2737]:
+          - generic [ref=e2739]: "02"
+          - article [ref=e2741]:
+            - heading "K-PASS様の予約サイト" [level=3] [ref=e2743]
+            - generic [ref=e2744]:
+              - generic [ref=e2745]: Next.js
+              - generic [ref=e2746]: Supabase
+              - generic [ref=e2747]: Resend
+            - paragraph [ref=e2748]: フォーム送信者への確認メール送信、管理者へのメール通知、LINEグループへの通知送信、Supabase設定（RLS＋レート制限など）を行いました。
+            - link "→ https://www.kpass-form.com/" [ref=e2750] [cursor=pointer]:
+              - /url: https://www.kpass-form.com/
+        - generic [ref=e2751]:
+          - generic [ref=e2753]: "03"
+          - article [ref=e2755]:
+            - heading "TeachLeaderのほぼ自動レポート作成機能" [level=3] [ref=e2757]
+            - generic [ref=e2758]:
+              - generic [ref=e2759]: TypeScript
+              - generic [ref=e2760]: LINE API
+              - generic [ref=e2761]: Resend
+            - paragraph [ref=e2762]: 講師のボタン操作だけでGoogle Meetに自動参加し、議事録・文字起こし・録画をドライブ保存し、自動でレポート化する機能を設計・開発中です。
+            - generic [ref=e2763]: 設計・開発途中
+    - generic [ref=e2764]:
+      - generic [ref=e2765]:
+        - generic [ref=e2766]: "06"
+        - heading "Contact." [level=2] [ref=e2767]
+        - generic [ref=e2768]: // 連絡先
+      - generic [ref=e2770]:
+        - generic [ref=e2771]: // READY TO BUILD
+        - heading "お気軽にご相談ください." [level=2] [ref=e2772]: お気軽にご相談ください.
+        - generic [ref=e2773]:
+          - button "matuott1230@gmail.com COPY" [ref=e2774] [cursor=pointer]:
+            - generic [ref=e2775]: matuott1230@gmail.com
+            - generic [ref=e2776]: COPY
+          - link "Instagram を開く →" [ref=e2777] [cursor=pointer]:
+            - /url: https://www.instagram.com/matu1230k/
+        - generic [ref=e2778]:
+          - generic [ref=e2779]:
+            - generic [ref=e2780]: name
+            - generic [ref=e2781]: 松尾 翔太 / Shota Matsuo
+          - generic [ref=e2782]:
+            - generic [ref=e2783]: availability
+            - generic [ref=e2784]: 25h+ / week (flexible)
+          - generic [ref=e2785]:
+            - generic [ref=e2786]: timezone
+            - generic [ref=e2787]: JST · UTC+9
+  - contentinfo [ref=e2788]:
+    - generic [ref=e2789]: © 2026 松尾 翔太 / Shota Matsuo.
+    - generic [ref=e2790]: built with Next.js mindset · designed pixel-by-pixel
+  - button "Open Next.js Dev Tools" [ref=e2796] [cursor=pointer]:
+    - img [ref=e2797]

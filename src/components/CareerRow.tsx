@@ -21,7 +21,7 @@ export default function CareerRow({ entry, isLast, visible }: Props) {
     >
       {/* Left meta column */}
       <div className="pt-[30px] text-right pr-[18px] flex flex-col gap-2 items-end max-[900px]:flex-row max-[900px]:items-center max-[900px]:justify-start max-[900px]:text-left max-[900px]:p-0 max-[900px]:pb-3 max-[900px]:gap-3">
-        <span className="font-mono text-[15px] font-semibold text-ink tracking-[0.02em] leading-tight whitespace-nowrap">
+        <span className="font-mono text-[15px] font-semibold text-ink tracking-[0.02em] leading-tight max-[400px]:text-[13px]">
           {entry.year}
         </span>
         <span
