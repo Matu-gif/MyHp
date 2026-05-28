@@ -55,15 +55,15 @@ function WorkBlock({ work, index }: { work: WorkItem; index: number }) {
       ref={ref}
       className={[
         'grid min-h-[35vh]',
-        isReversed ? 'min-[769px]:grid-cols-[1.4fr_1fr]' : 'grid-cols-[1fr_1.4fr]',
-        'max-[768px]:flex max-[768px]:flex-col max-[768px]:min-h-0 max-[768px]:mb-10',
+        isReversed ? 'min-[1025px]:grid-cols-[1.4fr_1fr]' : 'grid-cols-[1fr_1.4fr]',
+        'max-[1024px]:flex max-[1024px]:flex-col max-[1024px]:min-h-0 max-[1024px]:mb-10',
       ].join(' ')}
     >
       {/* Number column */}
       <div
         className={[
-          'flex items-center max-[768px]:items-center max-[768px]:justify-center max-[768px]:mb-4',
-          isReversed ? 'min-[769px]:order-2' : '',
+          'flex items-center max-[1024px]:items-center max-[1024px]:justify-center max-[1024px]:mb-4',
+          isReversed ? 'min-[1025px]:order-2' : '',
         ].join(' ')}
       >
         <span
@@ -81,8 +81,8 @@ function WorkBlock({ work, index }: { work: WorkItem; index: number }) {
         className={[
           'relative z-10',
           isReversed
-            ? 'min-[769px]:order-1 min-[769px]:-mr-12'
-            : '-ml-12 max-[768px]:ml-0',
+            ? 'min-[1025px]:order-1 min-[1025px]:-mr-12'
+            : '-ml-12 max-[1024px]:ml-0',
         ].join(' ')}
       >
         <article

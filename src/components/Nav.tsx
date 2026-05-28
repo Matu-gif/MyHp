@@ -37,7 +37,7 @@ export default function Nav() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-100 bg-white/85 backdrop-blur-[14px] border-b border-line">
-      <div className="max-w-[1280px] mx-auto px-14 py-3.5 flex items-center gap-6 max-md:px-5 max-md:gap-3">
+      <div className="max-w-[1280px] mx-auto px-14 py-3.5 flex items-center gap-6 max-[1024px]:px-10 max-[760px]:px-5 max-md:gap-3">
         <a href="#top" onClick={go('top')} className="flex items-center gap-2.5 font-mono text-[13px] font-semibold">
           <span className="w-[22px] h-[22px] grid grid-cols-4 gap-0" style={{ imageRendering: 'pixelated' }}>
             <span className="bg-ink" />

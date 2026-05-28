@@ -4,7 +4,7 @@ import { AVATAR_16 } from '@/data/pixel-art';
 
 export default function Hero() {
   return (
-    <section id="top" className="shell min-h-screen pt-[110px] pb-20 grid grid-cols-[1fr_1.05fr] gap-14 items-center max-[900px]:grid-cols-1 max-[900px]:gap-12 max-[900px]:min-h-auto max-[900px]:pt-24">
+    <section id="top" className="shell shell-full min-h-screen pt-[110px] pb-20 grid grid-cols-[1fr_1.05fr] gap-14 items-center max-[900px]:grid-cols-1 max-[900px]:gap-12 max-[900px]:min-h-auto max-[900px]:pt-24">
       <div>
         <div className="hero-fade inline-flex items-center gap-2 font-mono text-[11px] text-ink-3 bg-bg-soft border border-line px-3 py-1.5 rounded-full mb-8" style={{ animationDelay: '0ms' }}>
           <span className="w-1.5 h-1.5 rounded-full bg-[#22c55e] shadow-[0_0_0_3px_rgba(34,197,94,0.18)]" />
