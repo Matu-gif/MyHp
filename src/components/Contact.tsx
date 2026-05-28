@@ -43,7 +43,7 @@ export default function Contact() {
           <div className="flex flex-wrap gap-4 mt-8">
             <button
               onClick={copy}
-              className={`inline-flex items-center gap-3.5 px-6 py-[18px] bg-bg text-ink rounded font-mono text-sm font-semibold transition-all duration-150 border border-bg hover:bg-yellow hover:border-yellow ${copied ? '' : ''}`}
+              className={`inline-flex items-center gap-3.5 px-6 py-[18px] max-[360px]:px-3 max-[360px]:gap-2 bg-bg text-ink rounded font-mono text-sm font-semibold transition-all duration-150 border border-bg hover:bg-yellow hover:border-yellow ${copied ? '' : ''}`}
             >
               <span>{email}</span>
               <span className={`text-[10px] px-2 py-1 rounded-sm tracking-[0.06em] ${copied ? 'bg-[#22c55e] text-bg' : 'bg-ink text-bg'}`}>
