@@ -12,15 +12,15 @@ type Line = {
 
 const lines: Line[] = [
   { p: '$', cmd: 'whoami', delay: 200 },
-  { out: 'shota_matsuo — full-stack engineer', delay: 600 },
+  { out: 'shota_matsuo — Web Developer', delay: 600 },
   { p: '$', cmd: 'cat profile.json', delay: 1100 },
   { out: '{', delay: 1700 },
   { out: '  "born":   "2006-12-30",', delay: 1800 },
   { out: '  "age":    19,', delay: 1900 },
   { out: '  "gender": "male",', delay: 2000 },
   { out: '  "based":  "JP",', delay: 2100 },
-  { out: '  "stack":  ["Next.js", "TypeScript", "Tailwind", "Supabase"],', delay: 2200 },
-  { out: '  "hobby":  ["Anime", "Claude", "Developing"],', delay: 2300 },
+  { out: '  "stack":  ["Next.js", "TypeScript", "Tailwind", ...],', delay: 2200 },
+  { out: '  "hobby":  ["Anime", "Claude", "Developing", ...],', delay: 2300 },
   { out: '  "edge":   "API-driven product engineering",', delay: 2400 },
   { out: '  "open":   true', delay: 2500 },
   { out: '}', delay: 2650 },

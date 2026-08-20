@@ -22,6 +22,7 @@ export const CATEGORIES: SkillCategory[] = [
       { name: 'Tailwind CSS', primary: true },
       { name: 'React' },
       { name: 'Node.js' },
+      { name: 'Python' },
     ],
   },
   {

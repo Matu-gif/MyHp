@@ -6,20 +6,16 @@ export default function Hero() {
   return (
     <section id="top" className="shell shell-full min-h-screen pt-[110px] pb-20 grid grid-cols-[1fr_1.05fr] gap-14 items-center max-[900px]:grid-cols-1 max-[900px]:gap-12 max-[900px]:min-h-auto max-[900px]:pt-24">
       <div>
-        <div className="hero-fade inline-flex items-center gap-2 font-mono text-[11px] text-ink-3 bg-bg-soft border border-line px-3 py-1.5 rounded-full mb-8" style={{ animationDelay: '0ms' }}>
-          <span className="w-1.5 h-1.5 rounded-full bg-[#22c55e] shadow-[0_0_0_3px_rgba(34,197,94,0.18)]" />
-          AVAILABLE · 25h+/week · 要相談
-        </div>
-        <h1 className="hero-fade font-display text-[clamp(56px,8vw,120px)] font-bold tracking-[-0.04em] leading-[0.92] mb-[18px]" style={{ animationDelay: '60ms' }}>
+        <h1 className="hero-fade font-display text-[clamp(56px,8vw,120px)] font-bold tracking-[-0.04em] leading-[0.92] mb-[18px] mt-2" style={{ animationDelay: '60ms' }}>
           Shota<br />
           Mats<span className="text-blue">u</span>o<span className="text-blue">.</span>
         </h1>
         <p className="hero-fade text-[17px] text-ink-2 max-w-[480px] mb-9" style={{ animationDelay: '120ms', textWrap: 'pretty' }}>
-          <b className="font-bold text-ink">API を主戦場にする</b>フルスタックエンジニア。<br />
-          Next.js × TypeScript × Supabase を軸に、外部サービスを
+          <b className="font-bold text-ink">サードパーティAPIを用いた開発が得意な</b>Webエンジニアです。
+          Next.js × TypeScript × Tailwind CSS を軸に、外部サービスを
           <span className="bg-yellow-soft px-1">つなぎ合わせて</span>
-          Webサイトやシステムを作るのが得意です。<br />
-          最近はClaudeを使うことにハマってます。
+          Webサイトやシステムを作ることができます。
+          最近はClaudeを使った開発に取り組んでいます。
         </p>
         <div className="hero-fade flex gap-3 flex-wrap" style={{ animationDelay: '180ms' }}>
           <a

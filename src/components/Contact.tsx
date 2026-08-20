@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import SectionHead from './SectionHead';
 import { useInView, fadeUpStyle } from '@/hooks/useInView';
 
@@ -35,44 +36,27 @@ export default function Contact() {
           </div>
           <h2 className="font-display text-[clamp(36px,5vw,64px)] font-semibold tracking-[-0.03em] leading-[1.05] mb-7">
             お気軽にご相談ください<span className="text-yellow">.</span><br />
-            {/* <span className="text-ink-4 font-medium text-[0.5em]">
-              プロジェクト相談・業務委託・カジュアル面談、すべて歓迎です。
-            </span> */}
           </h2>
+          <p className="text-ink-4 text-[15px] mb-8 max-w-[520px]" style={{ textWrap: 'pretty' }}>
+            お問い合わせフォームからご連絡いただけます。メールでのご連絡も歓迎しています。
+          </p>
 
-          <div className="flex flex-wrap gap-4 mt-8">
+          <div className="flex flex-wrap gap-4 mt-2">
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-3.5 px-6 py-[18px] bg-yellow text-ink rounded font-mono text-sm font-semibold transition-all duration-150 border border-yellow hover:bg-bg hover:border-bg"
+            >
+              お問い合わせフォームへ →
+            </Link>
             <button
               onClick={copy}
-              className={`inline-flex items-center gap-3.5 px-6 py-[18px] max-[360px]:px-3 max-[360px]:gap-2 bg-bg text-ink rounded font-mono text-sm font-semibold transition-all duration-150 border border-bg hover:bg-yellow hover:border-yellow ${copied ? '' : ''}`}
+              className="inline-flex items-center gap-3.5 px-6 py-[18px] max-[360px]:px-3 max-[360px]:gap-2 bg-transparent text-bg rounded font-mono text-sm font-semibold transition-all duration-150 border border-white/30 hover:bg-bg hover:text-ink hover:border-bg"
             >
               <span>{email}</span>
-              <span className={`text-[10px] px-2 py-1 rounded-sm tracking-[0.06em] ${copied ? 'bg-[#22c55e] text-bg' : 'bg-ink text-bg'}`}>
+              <span className={`text-[10px] px-2 py-1 rounded-sm tracking-[0.06em] ${copied ? 'bg-[#22c55e] text-bg' : 'bg-white/15 text-bg'}`}>
                 {copied ? '✓ COPIED' : 'COPY'}
               </span>
             </button>
-            <a
-              href="https://www.instagram.com/matu1230k/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3.5 px-6 py-[18px] bg-transparent text-bg rounded font-mono text-sm font-semibold border border-white/30 transition-all duration-150 hover:bg-yellow hover:border-yellow hover:text-ink"
-            >
-              Instagram を開く →
-            </a>
-          </div>
-
-          <div className="grid grid-cols-3 gap-6 mt-14 pt-7 border-t border-white/12 max-[760px]:grid-cols-1 max-[760px]:gap-3.5">
-            <div>
-              <div className="font-mono text-[11px] text-ink-4 tracking-[0.08em] uppercase">name</div>
-              <div className="text-bg font-medium mt-1">松尾 翔太 / Shota Matsuo</div>
-            </div>
-            <div>
-              <div className="font-mono text-[11px] text-ink-4 tracking-[0.08em] uppercase">availability</div>
-              <div className="text-bg font-medium mt-1">25h+ / week (flexible)</div>
-            </div>
-            <div>
-              <div className="font-mono text-[11px] text-ink-4 tracking-[0.08em] uppercase">timezone</div>
-              <div className="text-bg font-medium mt-1">JST · UTC+9</div>
-            </div>
           </div>
         </div>
       </div>

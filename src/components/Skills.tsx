@@ -47,7 +47,6 @@ export default function Skills() {
         <div className="flex items-center gap-1"><b className="text-ink font-semibold">ENV</b> · MacBook Air M1 / 16GB</div>
         <div className="flex items-center gap-1"><b className="text-ink font-semibold">OS</b> · macOS</div>
         <div className="flex items-center gap-1"><b className="text-ink font-semibold">EDITOR</b> · VS Code + Claude Code Pro</div>
-        <div className="flex items-center gap-1"><b className="text-ink font-semibold">SHELL</b> · zsh</div>
       </div>
     </section>
   );
