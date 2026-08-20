@@ -1,0 +1,25 @@
+import type { MetadataRoute } from 'next';
+import { SITE_URL } from '@/lib/site';
+
+/**
+ * サイトマップ。トップと問い合わせページを列挙する。
+ * ページを増やしたらここに追記する。
+ */
+export default function sitemap(): MetadataRoute.Sitemap {
+  const lastModified = new Date();
+
+  return [
+    {
+      url: `${SITE_URL}/`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 1,
+    },
+    {
+      url: `${SITE_URL}/contact`,
+      lastModified,
+      changeFrequency: 'yearly',
+      priority: 0.5,
+    },
+  ];
+}
