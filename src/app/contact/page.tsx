@@ -30,6 +30,11 @@ export default function ContactPage() {
       setLocalError('お名前・メールアドレス・お問い合わせ内容をすべてご入力ください。');
       return;
     }
+    // メール形式チェック（サーバー側 isValidEmail と同じ正規表現）
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim())) {
+      setLocalError('メールアドレスの形式が正しくありません。');
+      return;
+    }
     setLocalError('');
     setStep('confirm');
   };

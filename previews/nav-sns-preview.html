@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nav SNS ドロップダウン 3案</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #ffffff; --bg-soft: #fafaf9; --bg-grid: #f4f4f2;
+    --ink: #0a0a0a; --ink-2: #1d1d1f; --ink-3: #4a4a4f; --ink-4: #8a8a90;
+    --line: #e6e6e3; --line-strong: #d0d0cc;
+    --blue: #1e57ff; --yellow: #ffd60a;
+    --mono: 'JetBrains Mono', monospace; --jp: 'Noto Sans JP', sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--ink); font-family: var(--jp);
+    background-image:
+      linear-gradient(to right, var(--bg-grid) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--bg-grid) 1px, transparent 1px);
+    background-size: 48px 48px; padding: 40px 24px 160px;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; }
+  .page-head h1 { font-family: var(--mono); font-size: 20px; }
+  .page-head p { color: var(--ink-4); font-size: 13px; margin-top: 6px; }
+  .variant-label { font-family: var(--mono); font-size: 12px; font-weight: 600; letter-spacing: .08em; color: var(--ink-4); margin: 48px 0 10px; }
+  .variant-label b { color: var(--ink); }
+
+  /* ===== Nav 再現 ===== */
+  .nav {
+    background: rgba(255,255,255,0.9); backdrop-filter: blur(14px);
+    border: 1px solid var(--line); border-radius: 8px;
+    padding: 12px 24px; display: flex; align-items: center; gap: 24px;
+    position: relative;
+  }
+  .brand { display: inline-flex; align-items: center; gap: 10px; font-family: var(--mono); font-size: 13px; font-weight: 600; }
+  .logo { width: 22px; height: 22px; display: grid; grid-template-columns: repeat(4, 1fr); }
+  .logo span { display: block; }
+  .k { background: var(--ink);} .b { background: var(--blue);} .y { background: var(--yellow);} .t { background: transparent;}
+  .navlinks { display: flex; gap: 2px; margin-left: auto; font-family: var(--mono); font-size: 12px; }
+  .navlinks a { padding: 8px 12px; color: var(--ink-3); text-decoration: none; }
+  .navlinks a.active { color: var(--ink); }
+  .contact-btn { font-family: var(--mono); font-size: 12px; font-weight: 600; padding: 8px 14px; background: var(--ink); color: #fff; border-radius: 3px; text-decoration: none; }
+
+  /* SNS trigger */
+  .sns-wrap { position: relative; }
+  .sns-btn {
+    font-family: var(--mono); font-size: 12px; font-weight: 600;
+    padding: 8px 12px; border: 1px solid var(--line-strong); border-radius: 3px;
+    background: #fff; color: var(--ink); display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
+  }
+  .sns-btn .caret { font-size: 10px; color: var(--ink-4); }
+  .ico { width: 16px; height: 16px; fill: currentColor; display: block; }
+
+  /* パネル共通 */
+  .panel {
+    position: absolute; top: calc(100% + 8px); right: 0;
+    background: #fff; border: 1px solid var(--line); border-radius: 6px;
+    box-shadow: 0 12px 32px -8px rgba(0,0,0,.18), 0 2px 8px rgba(0,0,0,.06);
+    z-index: 5;
+  }
+
+  /* ===== 案1: リスト ===== */
+  .panel-1 { width: 220px; padding: 6px; }
+  .panel-1 a { display: flex; align-items: center; gap: 12px; padding: 10px 12px; border-radius: 4px; text-decoration: none; color: var(--ink); font-family: var(--mono); font-size: 13px; }
+  .panel-1 a:hover { background: var(--bg-soft); }
+  .panel-1 a .handle { margin-left: auto; color: var(--ink-4); font-size: 12px; }
+
+  /* ===== 案2: アイコン横並び ===== */
+  .panel-2 { padding: 12px; }
+  .panel-2 .row { display: flex; gap: 10px; }
+  .panel-2 a {
+    width: 40px; height: 40px; border-radius: 999px; border: 1px solid var(--line-strong);
+    display: inline-flex; align-items: center; justify-content: center; color: var(--ink); text-decoration: none; transition: all .15s;
+  }
+  .panel-2 a:hover { background: var(--ink); color: #fff; border-color: var(--ink); }
+
+  /* ===== 案3: リッチカード ===== */
+  .panel-3 { width: 300px; padding: 8px; }
+  .panel-3 a { display: flex; align-items: center; gap: 14px; padding: 12px; border-radius: 6px; text-decoration: none; color: var(--ink); }
+  .panel-3 a:hover { background: var(--blue); color: #fff; }
+  .panel-3 a:hover .sub, .panel-3 a:hover .arw { color: rgba(255,255,255,.8); }
+  .panel-3 .avatar { width: 36px; height: 36px; border-radius: 8px; background: var(--bg-soft); display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .panel-3 a:hover .avatar { background: rgba(255,255,255,.18); }
+  .panel-3 .name { font-weight: 600; font-size: 14px; }
+  .panel-3 .sub { font-family: var(--mono); font-size: 12px; color: var(--ink-4); }
+  .panel-3 .arw { margin-left: auto; color: var(--ink-4); }
+
+  .note { font-family: var(--mono); font-size: 11px; color: var(--ink-4); margin-top: 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="page-head">
+    <h1>// Nav SNS ドロップダウン — 3案</h1>
+    <p>実際のナビバーを再現し、右側に「SNS」ボタンを追加。比較用にドロップダウンは開いた状態で表示しています（実装ではクリックで開閉）。</p>
+  </div>
+
+  <!-- 共通のロゴ/リンクをテンプレとして各案で複製 -->
+
+  <!-- ===== 案1 ===== -->
+  <div class="variant-label">案1 — <b>アイコン＋ラベル＋ハンドルのリスト（定番）</b></div>
+  <div class="nav">
+    <a class="brand"><span class="logo"><span class="k"></span><span class="b"></span><span class="k"></span><span class="t"></span><span class="b"></span><span class="k"></span><span class="y"></span><span class="k"></span><span class="k"></span><span class="y"></span><span class="k"></span><span class="b"></span><span class="t"></span><span class="k"></span><span class="b"></span><span class="k"></span></span>matsuo.dev</a>
+    <div class="navlinks"><a>01 / top</a><a class="active">02 / career</a><a>03 / skills</a><a>06 / contact</a></div>
+    <div class="sns-wrap">
+      <button class="sns-btn">SNS <span class="caret">▼</span></button>
+      <div class="panel panel-1">
+        <a href="https://x.com/MatusTT12"><svg class="ico" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>X <span class="handle">@MatusTT12</span></a>
+        <a href="https://www.instagram.com/matu1230k"><svg class="ico" viewBox="0 0 24 24"><path d="M12 2.982c2.937 0 3.285.011 4.445.064 1.072.049 1.655.228 2.043.379.513.199.88.437 1.265.822.385.385.623.752.822 1.265.151.388.33.971.379 2.043.053 1.16.064 1.508.064 4.445s-.011 3.285-.064 4.445c-.049 1.072-.228 1.655-.379 2.043a3.41 3.41 0 01-.822 1.265 3.41 3.41 0 01-1.265.822c-.388.151-.971.33-2.043.379-1.16.053-1.508.064-4.445.064s-3.285-.011-4.445-.064c-1.072-.049-1.655-.228-2.043-.379a3.41 3.41 0 01-1.265-.822 3.41 3.41 0 01-.822-1.265c-.151-.388-.33-.971-.379-2.043-.053-1.16-.064-1.508-.064-4.445s.011-3.285.064-4.445c.049-1.072.228-1.655.379-2.043.199-.513.437-.88.822-1.265a3.41 3.41 0 011.265-.822c.388-.151.971-.33 2.043-.379 1.16-.053 1.508-.064 4.445-.064M12 1c-2.987 0-3.362.013-4.535.066-1.171.054-1.97.24-2.67.511a5.39 5.39 0 00-1.949 1.269 5.39 5.39 0 00-1.269 1.949c-.271.7-.457 1.499-.511 2.67C1.013 8.638 1 9.013 1 12s.013 3.362.066 4.535c.054 1.171.24 1.97.511 2.67a5.39 5.39 0 001.269 1.949 5.39 5.39 0 001.949 1.269c.7.271 1.499.457 2.67.511C8.638 22.987 9.013 23 12 23s3.362-.013 4.535-.066c1.171-.054 1.97-.24 2.67-.511a5.39 5.39 0 001.949-1.269 5.39 5.39 0 001.269-1.949c.271-.7.457-1.499.511-2.67C22.987 15.362 23 14.987 23 12s-.013-3.362-.066-4.535c-.054-1.171-.24-1.97-.511-2.67a5.39 5.39 0 00-1.269-1.949 5.39 5.39 0 00-1.949-1.269c-.7-.271-1.499-.457-2.67-.511C15.362 1.013 14.987 1 12 1zm0 5.351A5.649 5.649 0 1017.649 12 5.649 5.649 0 0012 6.351zm0 9.316A3.667 3.667 0 1115.667 12 3.667 3.667 0 0112 15.667zm5.872-9.539a1.32 1.32 0 11-1.32-1.32 1.32 1.32 0 011.32 1.32z"/></svg>Instagram <span class="handle">@matu1230k</span></a>
+      </div>
+    </div>
+    <a class="contact-btn">→ contact</a>
+  </div>
+  <div class="note">クリックで開閉。行ホバーで薄グレー。分かりやすさ重視。</div>
+
+  <!-- ===== 案2 ===== -->
+  <div class="variant-label">案2 — <b>アイコン横並びの小ポップオーバー（最小限）</b></div>
+  <div class="nav">
+    <a class="brand"><span class="logo"><span class="k"></span><span class="b"></span><span class="k"></span><span class="t"></span><span class="b"></span><span class="k"></span><span class="y"></span><span class="k"></span><span class="k"></span><span class="y"></span><span class="k"></span><span class="b"></span><span class="t"></span><span class="k"></span><span class="b"></span><span class="k"></span></span>matsuo.dev</a>
+    <div class="navlinks"><a>01 / top</a><a class="active">02 / career</a><a>03 / skills</a><a>06 / contact</a></div>
+    <div class="sns-wrap">
+      <button class="sns-btn">SNS <span class="caret">▼</span></button>
+      <div class="panel panel-2">
+        <div class="row">
+          <a href="https://x.com/MatusTT12" aria-label="X"><svg class="ico" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a href="https://www.instagram.com/matu1230k" aria-label="Instagram"><svg class="ico" viewBox="0 0 24 24"><path d="M12 2.982c2.937 0 3.285.011 4.445.064 1.072.049 1.655.228 2.043.379.513.199.88.437 1.265.822.385.385.623.752.822 1.265.151.388.33.971.379 2.043.053 1.16.064 1.508.064 4.445s-.011 3.285-.064 4.445c-.049 1.072-.228 1.655-.379 2.043a3.41 3.41 0 01-.822 1.265 3.41 3.41 0 01-1.265.822c-.388.151-.971.33-2.043.379-1.16.053-1.508.064-4.445.064s-3.285-.011-4.445-.064c-1.072-.049-1.655-.228-2.043-.379a3.41 3.41 0 01-1.265-.822 3.41 3.41 0 01-.822-1.265c-.151-.388-.33-.971-.379-2.043-.053-1.16-.064-1.508-.064-4.445s.011-3.285.064-4.445c.049-1.072.228-1.655.379-2.043.199-.513.437-.88.822-1.265a3.41 3.41 0 011.265-.822c.388-.151.971-.33 2.043-.379 1.16-.053 1.508-.064 4.445-.064M12 1c-2.987 0-3.362.013-4.535.066-1.171.054-1.97.24-2.67.511a5.39 5.39 0 00-1.949 1.269 5.39 5.39 0 00-1.269 1.949c-.271.7-.457 1.499-.511 2.67C1.013 8.638 1 9.013 1 12s.013 3.362.066 4.535c.054 1.171.24 1.97.511 2.67a5.39 5.39 0 001.269 1.949 5.39 5.39 0 001.949 1.269c.7.271 1.499.457 2.67.511C8.638 22.987 9.013 23 12 23s3.362-.013 4.535-.066c1.171-.054 1.97-.24 2.67-.511a5.39 5.39 0 001.949-1.269 5.39 5.39 0 001.269-1.949c.271-.7.457-1.499.511-2.67C22.987 15.362 23 14.987 23 12s-.013-3.362-.066-4.535c-.054-1.171-.24-1.97-.511-2.67a5.39 5.39 0 00-1.269-1.949 5.39 5.39 0 00-1.949-1.269c-.7-.271-1.499-.457-2.67-.511C15.362 1.013 14.987 1 12 1zm0 5.351A5.649 5.649 0 1017.649 12 5.649 5.649 0 0012 6.351zm0 9.316A3.667 3.667 0 1115.667 12 3.667 3.667 0 0112 15.667zm5.872-9.539a1.32 1.32 0 11-1.32-1.32 1.32 1.32 0 011.32 1.32z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <a class="contact-btn">→ contact</a>
+  </div>
+  <div class="note">省スペース。ホバーで黒丸に反転。数が少ないうちはこれで十分。</div>
+
+  <!-- ===== 案3 ===== -->
+  <div class="variant-label">案3 — <b>リッチカード（サービス名＋ハンドル＋→）</b></div>
+  <div class="nav">
+    <a class="brand"><span class="logo"><span class="k"></span><span class="b"></span><span class="k"></span><span class="t"></span><span class="b"></span><span class="k"></span><span class="y"></span><span class="k"></span><span class="k"></span><span class="y"></span><span class="k"></span><span class="b"></span><span class="t"></span><span class="k"></span><span class="b"></span><span class="k"></span></span>matsuo.dev</a>
+    <div class="navlinks"><a>01 / top</a><a class="active">02 / career</a><a>03 / skills</a><a>06 / contact</a></div>
+    <div class="sns-wrap">
+      <button class="sns-btn">SNS <span class="caret">▼</span></button>
+      <div class="panel panel-3">
+        <a href="https://x.com/MatusTT12">
+          <span class="avatar"><svg class="ico" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></span>
+          <span><span class="name">X</span><br /><span class="sub">@MatusTT12</span></span>
+          <span class="arw">→</span>
+        </a>
+        <a href="https://www.instagram.com/matu1230k">
+          <span class="avatar"><svg class="ico" viewBox="0 0 24 24"><path d="M12 2.982c2.937 0 3.285.011 4.445.064 1.072.049 1.655.228 2.043.379.513.199.88.437 1.265.822.385.385.623.752.822 1.265.151.388.33.971.379 2.043.053 1.16.064 1.508.064 4.445s-.011 3.285-.064 4.445c-.049 1.072-.228 1.655-.379 2.043a3.41 3.41 0 01-.822 1.265 3.41 3.41 0 01-1.265.822c-.388.151-.971.33-2.043.379-1.16.053-1.508.064-4.445.064s-3.285-.011-4.445-.064c-1.072-.049-1.655-.228-2.043-.379a3.41 3.41 0 01-1.265-.822 3.41 3.41 0 01-.822-1.265c-.151-.388-.33-.971-.379-2.043-.053-1.16-.064-1.508-.064-4.445s.011-3.285.064-4.445c.049-1.072.228-1.655.379-2.043.199-.513.437-.88.822-1.265a3.41 3.41 0 011.265-.822c.388-.151.971-.33 2.043-.379 1.16-.053 1.508-.064 4.445-.064M12 1c-2.987 0-3.362.013-4.535.066-1.171.054-1.97.24-2.67.511a5.39 5.39 0 00-1.949 1.269 5.39 5.39 0 00-1.269 1.949c-.271.7-.457 1.499-.511 2.67C1.013 8.638 1 9.013 1 12s.013 3.362.066 4.535c.054 1.171.24 1.97.511 2.67a5.39 5.39 0 001.269 1.949 5.39 5.39 0 001.949 1.269c.7.271 1.499.457 2.67.511C8.638 22.987 9.013 23 12 23s3.362-.013 4.535-.066c1.171-.054 1.97-.24 2.67-.511a5.39 5.39 0 001.949-1.269 5.39 5.39 0 001.269-1.949c.271-.7.457-1.499.511-2.67C22.987 15.362 23 14.987 23 12s-.013-3.362-.066-4.535c-.054-1.171-.24-1.97-.511-2.67a5.39 5.39 0 00-1.269-1.949 5.39 5.39 0 00-1.949-1.269c-.7-.271-1.499-.457-2.67-.511C15.362 1.013 14.987 1 12 1zm0 5.351A5.649 5.649 0 1017.649 12 5.649 5.649 0 0012 6.351zm0 9.316A3.667 3.667 0 1115.667 12 3.667 3.667 0 0112 15.667zm5.872-9.539a1.32 1.32 0 11-1.32-1.32 1.32 1.32 0 011.32 1.32z"/></svg></span>
+          <span><span class="name">Instagram</span><br /><span class="sub">@matu1230k</span></span>
+          <span class="arw">→</span>
+        </a>
+      </div>
+    </div>
+    <a class="contact-btn">→ contact</a>
+  </div>
+  <div class="note">情報量多め・存在感あり。ホバーで blue に反転。SNS を増やしても見やすい。</div>
+
+</div>
+</body>
+</html>
