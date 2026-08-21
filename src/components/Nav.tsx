@@ -77,9 +77,9 @@ export default function Nav() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-100 bg-white/85 backdrop-blur-[14px] border-b border-line">
-      <div className="max-w-[1280px] mx-auto px-14 py-3.5 flex items-center gap-6 max-[1024px]:px-10 max-[760px]:px-5 max-md:gap-3">
-        <a href="#top" onClick={go('top')} className="flex items-center gap-2.5 font-mono text-[13px] font-semibold">
-          <span className="w-[22px] h-[22px] grid grid-cols-4 gap-0" style={{ imageRendering: 'pixelated' }}>
+      <div className="max-w-[1280px] mx-auto px-14 py-3.5 flex items-center gap-6 max-[1024px]:px-10 max-[760px]:px-5 max-md:gap-3 max-[380px]:px-3 max-[380px]:gap-2">
+        <a href="#top" onClick={go('top')} className="flex items-center gap-2.5 max-md:min-w-0 font-mono text-[13px] font-semibold max-[380px]:gap-2 max-[380px]:text-[11px]">
+          <span className="w-[22px] h-[22px] shrink-0 grid grid-cols-4 gap-0 max-[380px]:w-[18px] max-[380px]:h-[18px]" style={{ imageRendering: 'pixelated' }}>
             <span className="bg-ink" />
             <span className="bg-blue" />
             <span className="bg-ink" />
@@ -97,7 +97,7 @@ export default function Nav() {
             <span className="bg-blue" />
             <span className="bg-ink" />
           </span>
-          <span>matsuo.dev</span>
+          <span className="max-md:truncate">matsuoself.dev</span>
         </a>
 
         <div className="hidden md:flex gap-0.5 ml-auto font-mono text-xs">
@@ -118,13 +118,13 @@ export default function Nav() {
           ))}
         </div>
 
-        <div ref={snsRef} className="relative ml-auto md:ml-0">
+        <div ref={snsRef} className="relative max-md:shrink-0 ml-auto md:ml-0">
           <button
             type="button"
             onClick={() => setSnsOpen((o) => !o)}
             aria-haspopup="true"
             aria-expanded={snsOpen}
-            className="font-mono text-xs font-semibold px-3 py-2 border border-line-strong rounded-sm inline-flex items-center gap-1.5 text-ink bg-bg hover:border-ink transition-colors duration-150"
+            className="font-mono text-xs font-semibold px-3 py-2 border border-line-strong rounded-sm inline-flex items-center gap-1.5 text-ink bg-bg hover:border-ink transition-colors duration-150 max-[380px]:px-2 max-[380px]:gap-1 max-[380px]:text-[11px]"
           >
             SNS
             <span className={`text-[10px] text-ink-4 transition-transform duration-150 ${snsOpen ? 'rotate-180' : ''}`}>▼</span>
@@ -153,7 +153,7 @@ export default function Nav() {
         <a
           href="#contact"
           onClick={go('contact')}
-          className="font-mono text-xs font-semibold px-3.5 py-2 bg-ink text-bg rounded-sm inline-flex items-center gap-2 hover:bg-blue transition-colors duration-150"
+          className="font-mono text-xs font-semibold px-3.5 py-2 bg-ink text-bg rounded-sm inline-flex items-center gap-2 max-md:shrink-0 whitespace-nowrap hover:bg-blue transition-colors duration-150 max-[380px]:px-2.5 max-[380px]:gap-1.5 max-[380px]:text-[11px]"
         >
           → contact
         </a>
