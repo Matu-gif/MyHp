@@ -29,13 +29,10 @@ export default function Contact() {
     <section id="contact" className="shell section-pad">
       <SectionHead num="06" title="Contact." jp="// 連絡先" />
 
-      <div ref={ref} style={fadeUpStyle(inView, 0)} className="contact-card bg-ink text-bg rounded-[var(--radius-lg)] p-14 max-[760px]:p-[36px_28px] relative overflow-hidden">
+      <div ref={ref} style={fadeUpStyle(inView, 0)} className="contact-card bg-ink text-bg rounded-[var(--radius-lg)] p-14 pt-[68px] max-[760px]:p-[36px_28px] max-[760px]:pt-[42px] relative overflow-hidden">
         <div className="relative">
-          <div className="font-mono text-xs text-yellow tracking-[0.1em] mb-[18px]">
-            // READY TO BUILD
-          </div>
           <h2 className="font-display text-[clamp(36px,5vw,64px)] font-semibold tracking-[-0.03em] leading-[1.05] mb-7">
-            お気軽にご相談ください<span className="text-yellow">.</span><br />
+            お気軽にご相談ください<span className="text-yellow">.</span>
           </h2>
           <p className="text-ink-4 text-[15px] mb-8 max-w-[520px]" style={{ textWrap: 'pretty' }}>
             お問い合わせフォームからご連絡いただけます。メールでのご連絡も歓迎しています。
