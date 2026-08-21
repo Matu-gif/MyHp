@@ -9,12 +9,12 @@ export default function Works() {
 
       <div className="mt-14">
         <div className="rounded-[var(--radius-lg)] border border-line bg-bg-soft px-8 py-16 text-center max-[600px]:px-5 max-[600px]:py-12">
+          {/* ブロックは mx-auto で中央寄せ、本文は text-left で左寄せ */}
           <p
-            className="text-ink-2 text-[15px] leading-[1.9] max-w-[540px] mx-auto"
+            className="text-ink-2 text-[15px] leading-[1.9] max-w-[540px] mx-auto text-left"
             style={{ textWrap: 'pretty' }}
           >
-            ただいま、実績の掲載許可をいただいたり、準備したりしている途中です。
-            公開できるようになりましたら、こちらに掲載いたします。
+            ただいま、実績の掲載許可をいただいたり、準備したりしている途中です。公開できるようになりましたら、こちらに掲載いたします。
           </p>
         </div>
       </div>
