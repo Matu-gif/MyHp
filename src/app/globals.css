@@ -98,6 +98,18 @@
   }
 }
 
+/* ヒーローの上下余白。
+   .shell が padding ショートハンド（padding: 0 56px）を使っているため、
+   Tailwind の pt- / pb- ユーティリティは打ち消されてしまう
+   （Tailwind v4 のユーティリティは @layer utilities 内、.shell はレイヤ外 → レイヤ外が勝つ）。
+   そのため固定ヘッダーとの重なりを防ぐ上下余白はここで実クラスとして指定する。 */
+@media (max-width: 900px) {
+  .hero-shell { padding-block: 96px 64px; }
+}
+@media (max-width: 380px) {
+  .hero-shell { padding-block: 84px 56px; }
+}
+
 .section-pad { padding: 120px 0; }
 @media (max-width: 760px) { .section-pad { padding: 72px 0; } }
 @media (max-width: 480px) {

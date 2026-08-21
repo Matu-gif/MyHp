@@ -4,7 +4,7 @@ import { AVATAR_16 } from '@/data/pixel-art';
 
 export default function Hero() {
   return (
-    <section id="top" className="shell shell-full min-h-screen pt-[110px] pb-20 grid grid-cols-[1fr_1.05fr] gap-14 items-center max-[900px]:grid-cols-1 max-[900px]:gap-12 max-[900px]:min-h-auto max-[900px]:pt-24">
+    <section id="top" className="shell shell-full hero-shell min-h-screen grid grid-cols-[1fr_1.05fr] gap-14 items-center max-[900px]:grid-cols-1 max-[900px]:gap-12 max-[900px]:min-h-auto">
       <div>
         <h1 className="hero-fade font-display text-[clamp(56px,8vw,120px)] font-bold tracking-[-0.04em] leading-[0.92] mb-[18px] mt-2" style={{ animationDelay: '60ms' }}>
           Shota<br />
@@ -36,7 +36,11 @@ export default function Hero() {
       </div>
 
       <div className="hero-fade relative" style={{ animationDelay: '100ms' }}>
-        <div className="absolute -right-7 -top-7 z-2">
+        {/* .shell-full の左右パディングが 20px になる 760px 以下では、-right-7(-28px) だと
+            アバターがビューポート外へ 8px はみ出して切れるため、はみ出し量を -8px に抑える。
+            Tailwind の max-[N] は「N 未満」（not (min-width: N)）なので、
+            CSS 側の @media (max-width: 760px) と境界を合わせるため 761 を指定している。 */}
+        <div className="absolute -right-7 -top-7 z-2 max-[761px]:-right-2 max-[380px]:-top-5">
           <PixelGrid grid={AVATAR_16} scale={6} />
         </div>
         <Terminal />
