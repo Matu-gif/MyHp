@@ -97,7 +97,7 @@ export default function Nav() {
             <span className="bg-blue" />
             <span className="bg-ink" />
           </span>
-          <span>matsuo.dev</span>
+          <span>matsuoself.dev</span>
         </a>
 
         <div className="hidden md:flex gap-0.5 ml-auto font-mono text-xs">

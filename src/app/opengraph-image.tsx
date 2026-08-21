@@ -43,7 +43,7 @@ export default function Image() {
             alignItems: 'flex-end',
           }}
         >
-          <div style={{ display: 'flex', fontSize: 28, color: '#ffffff' }}>matsuo.dev</div>
+          <div style={{ display: 'flex', fontSize: 28, color: '#ffffff' }}>matsuoself.dev</div>
           <div style={{ display: 'flex', fontSize: 22, color: '#8a8a90' }}>
             Next.js · TypeScript · Supabase
           </div>
