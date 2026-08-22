@@ -38,7 +38,34 @@
 
 ---
 
-## 最終検証（全塊完了後）
-- [ ] `npm run build` 成功、meta/OG/twitter/canonical/JSON-LD がソースに出力
-- [ ] `/contact` の title が「お問い合わせ | 松尾翔太」
-- [ ] （本人）Vercel に `NEXT_PUBLIC_SITE_URL` / 検証トークン設定 → Search Console 所有権確認 → sitemap 送信
+## 最終検証（2026-08-22 完了）
+
+本番 `https://www.matsuoself.dev` への実 HTTP リクエストで確認済み。
+
+- [x] meta / OG / twitter / canonical / JSON-LD がソースに出力
+- [x] OGP 画像が生成される（`/opengraph-image` `/twitter-image` とも PNG 1200×630）
+- [x] `/contact` の title が「お問い合わせ | 松尾翔太」・canonical も個別
+- [x] `robots.txt` `sitemap.xml` が 200 で配信（Googlebot UA・IPv6 でも 200）
+- [x] `x-robots-tag: noindex` が付いていない
+- [x] Vercel に `NEXT_PUBLIC_SITE_URL=https://www.matsuoself.dev` を設定
+- [x] Search Console 所有権確認（**DNS TXT 方式**／DNS は Cloudflare 管理）
+- [x] sitemap 送信 → 「正常に処理されました」検出2ページ
+- [x] `/` `/contact` のインデックス登録をリクエスト
+
+### 決定事項の変更
+- **所有権確認は DNS TXT 方式を採用したため、`NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` は未使用。**
+  `layout.tsx` の `verification` は未設定時に `undefined` を返すので、そのままで問題ない。
+  メタタグ方式に切り替える場合のみ、この環境変数を Vercel に設定する。
+- 本番ドメインは `www.matsuoself.dev` に確定（apex `matsuoself.dev` は www へ 301）。
+
+### 送信直後の表示について（既知の挙動）
+サイトマップ一覧に「取得できませんでした」と出ることがあるが、詳細画面が
+「正常に処理されました」なら成功。一覧の反映が遅れているだけで、再送信は不要。
+
+---
+
+## 今後の任意タスク（未着手）
+- [ ] `my-hp-eight.vercel.app` を Vercel の Domains 設定でカスタムドメインへの Redirect に変更（重複URL対策。canonical で担保済みのため優先度は低い）
+- [ ] アクセス解析の導入（GA4 または `@vercel/analytics`。現在いずれも未導入）
+- [ ] Bing Webmaster Tools に Search Console からインポート
+- [ ] 数日〜2週間後、Search Console の「ページ」レポートでインデックス状況を確認
