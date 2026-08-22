@@ -22,6 +22,8 @@
 - CTA: `→ contact`
 - スクロールスパイでアクティブセクションをハイライト
 - モバイル: ナビリンク非表示、SNS と CTA のみ
+- 380px 未満: ロゴ文字 11px / ピクセルマーク 18px、SNS・CTA のパディングと文字を縮小、
+  nav の左右余白 12px / gap 8px（320px でヘッダーを1行に収めるため）
 
 ### #top — ヒーロー
 - 大見出し: `Shota Matsuo.` (Space Grotesk, clamp 56px-120px、`u` と `.` は青)
@@ -31,6 +33,9 @@
 - ピクセルアバター (16x16, ターミナルの右上に配置)
 - 黄色の吹き出しバッジ: `→ drag · hover · explore`
 - 2カラムグリッド (≤900px で1カラム)
+- 上下余白は `.hero-shell` で指定 (≤900px: 96px/64px、≤380px: 84px/56px)
+  - `.shell` の padding ショートハンドが Tailwind の `pt-*` を打ち消すため、専用クラスで指定している
+- ピクセルアバターは ≤760px ではみ出し量を 8px に抑える (画面外での見切れ防止)
 
 ### #career — 経歴
 - セクション番号: 02 / 見出し `Career.` / `// 経歴`
@@ -89,8 +94,13 @@
 - デスクトップ: max-width 1280px, padding 0 56px
 - ≤1024px: shell の左右マージン 20px、shell-full は padding 0 40px
 - ≤900px: ヒーロー / Domains を1カラムに
-- ≤760px: shell-full は padding 0 20px、ナビリンク非表示、セクション padding 120px → 72px
+- ≤760px: shell-full は padding 0 20px、ナビリンク非表示、セクション padding 120px → 72px、
+  ヒーローのピクセルアバターのはみ出しを 8px に抑制
 - ≤480px: セクション padding 56px
+- <380px: ヘッダー各要素とヒーローの上下余白を縮小 (最小幅 320px を想定)
+
+> Tailwind の `max-[N]` は `not (min-width: N)` にコンパイルされ **「N 未満」** となる (N ちょうどを含まない)。
+> CSS の `@media (max-width: N)` は N を含むため、境界を揃える箇所では `max-[N+1]` を指定している。
 
 ## メタデータ / SEO
 - タイトル: `松尾翔太 — Shota Matsuo` (下層は `%s | 松尾翔太`)
